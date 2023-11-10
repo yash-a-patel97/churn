@@ -35,7 +35,7 @@ if iris_classifier is None or iris_scaler is None:
     st.warning("Unable to load Iris model and scaler.")
 
 # Load the saved model and scaler for Wine
-wine_classifier, wine_scaler = load_model_scaler('wine_fraud.pkl', 'scaler_wine.pkl')
+wine_classifier, wine_scaler = load_model_scaler('wine_fraud.pkl', 'Scaler_Wine.pkl')
 if wine_classifier is None or wine_scaler is None:
     st.warning("Unable to load Wine model and scaler.")
 
